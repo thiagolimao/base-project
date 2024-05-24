@@ -58,14 +58,14 @@ $fw-xbold: 800;
 $fw-black: 900;
 
 /// userSpaceOnUse
-$pad-space: 6.25rem;
+$pad-space: 2rem;
 
 /// Grid Breakpoints
 $grid-breakpoints: (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px,
-    xxl: 1400px
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
 );
