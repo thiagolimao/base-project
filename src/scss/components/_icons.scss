@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------
+# Components Icons
+--------------------------------------------------------------*/
+.ico {
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-color: transparent;
+   background-position: center;
+   display: inline-block;
+
+   &.social-facebook {
+      width: 53px;
+      height: 74px;
+      background-image: url( ico-social-facebook("#{$primary-svg}") );
+   }
+}
