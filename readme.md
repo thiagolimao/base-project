@@ -50,3 +50,9 @@ Publish /dist in surge url
 ```
 	yarn deploy
 ```
+
+# Link para encodificar o SVG e usá-lo como background
+## https://www.asiteaboutnothing.net/c_decode-url.html
+
+# Importante para uso
+## Ao encodificar o SVG se atente a hashtag, pois ela também é encodificada e para isso na variavel, como exemplo na $primary eu crio uma $primary-svg removendo a hashtag, uma vez que ela sera encodificada na estrutura original. 

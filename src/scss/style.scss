@@ -7,11 +7,13 @@
 @import "base/reset";
 @import "base/page";
 @import "base/typography";
+@import "base/functions";
 
 // Component.
 @import "components/extras";
 @import "components/cookies";
 @import "components/preloader";
+@import "components/icons";
 
 // Layout.
 @import "layout/header";
