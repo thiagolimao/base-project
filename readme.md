@@ -1,52 +1,40 @@
-## Layout
+# Tailwind and Sass Starter Template
 
-Access the layout
+A plain starter template for using Tailwind with Sass (without Next, Gatsby, Laravel, etc).
 
-[> Open layout](https://www.figma.com/)
+## Why Sass?
 
-## Online example
+I personally like using Tailwind altogether with Sass because it makes me able to nest the styles. Also, the `@mixin` and `@extend` features really help me to avoid writing the same styles again and again, so the stylesheet is a bit more readable.
 
-Access the site
+## Installation
 
-[> Open site](https://project_name-front.surge.sh)
+Use the package manager [npm](https://www.npmjs.com) to use this template, or hit the "Use this template" button above.
 
-## Building
-
-Install Node.js if you do not already have it installed on your machine.
-Install Gulp CLI. Run the below command in your terminal. This will install Gulp CLI globally.
-
-```
-    yarn add gulp-cli
+```bash
+npm install
 ```
 
-In the project folder install dependences:
+## Running for development
 
+```bash
+npm start
 ```
-	yarn
-```
+Run the command above, and you are ready to go! To build your website, edit `index.html` to your liking, and style it by editing and/or adding SCSS files in the `sass` folder. Your SCSS files will be automatically processed and outputted to the `css` folder, upon every save.
 
-In the project folder run:
+During development, CSS output is not optimized since it will be slow to compress and purge everything on every change. 
 
-```
-	yarn start
-```
+## Building for production
 
-Access the project through `http://localhost:3000/`
-
-Compiles and exports the project to the /dist folder:
-
-```
-	yarn run dist
+```bash
+npm run build
 ```
 
-It will watch and automatically compile the project to the /dist folder each time you edit and save a file inside the /src folder
+In production, CSS output in the `css` folder will be optimized using Tailwind purging and cssnano compression. Don't forget to update the glob pattern in `purge` option in [tailwind.config.js](https://github.com/mufidu/tailwind-sass-starter/blob/main/tailwind.config.js), if you change folder structure in your project.
 
-```
-	yarn run watch
-```
+## Contributing
 
-Publish /dist in surge url
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-```
-	yarn deploy
-```
+## License
+
+[MIT](https://github.com/mufidu/tailwind-sass-starter/blob/main/LICENSE)

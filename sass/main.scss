@@ -1,0 +1,15 @@
+@import "tailwindcss/base.css";
+@import "tailwindcss/components.css";
+@import "tailwindcss/utilities.css";
+
+body {
+  @apply text-center;
+}
+
+h1 {
+  @apply text-5xl mt-8;
+}
+
+@import "base/variables";
+@import "base/reset";
+@import "base/page";
